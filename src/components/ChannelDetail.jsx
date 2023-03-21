@@ -26,7 +26,7 @@ function ChannelDetail() {
       <Box>
         <ChannelCard ChannelDetail={channelDetail}/>
       </Box>
-      <Box sx={{ display: "flex", justifyContent: "center"}}>
+      <Box>
         <Videos videos={videos}/>
       </Box>
     </Box>
